@@ -18,8 +18,18 @@ class ETicketPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('E-Ticket'),
-        centerTitle: true,
+        leading: IconButton(
+          icon: const Icon(Icons.chevron_left),
+          onPressed: () => Navigator.of(context).pop(),
+        ),
+        title: const Text(
+          "E-Ticket",
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 20,
+          ),
+        ),
+        //centerTitle: true,
       ),
       body: SingleChildScrollView(
         child: Column(

@@ -78,7 +78,13 @@ class _CartFoodPageState extends State<CartFoodPage> {
           icon: const Icon(Icons.chevron_left),
           onPressed: () => Navigator.of(context).pop(),
         ),
-        title: const Text("Cart"),
+        title: const Text(
+          "Cart",
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 20,
+          ),
+        ),
         backgroundColor: Colors.white,
         foregroundColor: Colors.black,
       ),

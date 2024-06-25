@@ -241,7 +241,7 @@ class _ImageSliderState extends State<ImageSlider> {
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 color: _currentIndex == index
-                    ? const Color.fromRGBO(0, 0, 0, 0.9)
+                    ? const Color.fromARGB(255, 97, 94, 252)
                     : const Color.fromRGBO(0, 0, 0, 0.4),
               ),
             );

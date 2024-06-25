@@ -106,7 +106,7 @@ class TopUpPage extends StatelessWidget {
                     },
                   ),
                   TopUpMethodCard(
-                    icon: Icons.account_balance,
+                    icon: Icons.credit_card_rounded,
                     title: 'ATM',
                     description: 'Use an ATM machine with a Virtual Account code',
                     onTap: () {

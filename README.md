@@ -1,16 +1,15 @@
-# myapp
+# Park N Eats
 
-A new Flutter project.
+Park N' Eats merupakan Aplikasi yang dibuat oleh Kelompok SDHN untuk proyek UAS Software Development. Aplikasi ini bertujuan untuk memesan tiket Jatim Park dan memesan makanan dan minuman KFC
 
-## Getting Started
+## Kelompok SDHN 
+- Richard Cristian             (525220018) 
+- Valentino Almendo Radjawane  (535220040) 
+- Marcia Yanprincessa Utama    (535220044) 
+- Aliyah Zahrah                (535220243) 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Pembagian Tugas Kelompok
+- Richard Cristian             : membuat account page dan login signup database 
+- Valentino Almendo Radjawane  : membuat ticket page 
+- Marcia Yanprincessa Utama    : membuat order page dan notes page
+- Aliyah Zahrah                : membuat home page, splash screen, onboard

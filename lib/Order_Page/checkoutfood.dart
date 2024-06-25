@@ -51,7 +51,13 @@ class CheckoutFoodPage extends StatelessWidget {
           icon: const Icon(Icons.chevron_left),
           onPressed: () => Navigator.of(context).pop(),
         ),
-        title: const Text("Checkout"),
+        title: const Text(
+          "Checkout",
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 20,
+          ),
+        ),
         backgroundColor: Colors.white,
         foregroundColor: Colors.black,
       ),

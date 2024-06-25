@@ -9,7 +9,7 @@ class PaymentSuccessPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
+          icon: const Icon(Icons.chevron_left),
           onPressed: () {
             Navigator.push(
               context,

@@ -241,7 +241,12 @@ class NotesPageState extends State<NotesPage> {
             );
           }
         },
-        child: const Icon(Icons.add),
+        backgroundColor: const Color.fromARGB(255, 97, 94, 252), // Warna latar belakang
+        child: const Icon(
+          Icons.add,
+          color: Colors.white,
+          size: 40, 
+        ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
@@ -370,6 +375,10 @@ class EditNotesPageState extends State<EditNotesPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          icon: const Icon(Icons.chevron_left),
+          onPressed: () => Navigator.of(context).pop(),
+        ),
         title: const Text('Edit Note'),
         backgroundColor: Colors.white,
         elevation: 0,
