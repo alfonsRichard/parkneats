@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "338622794193",
+    "project_id": "park-n-eats",
+    "storage_bucket": "park-n-eats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338622794193:android:3453cc65eddbaae1aaf8f0",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-eZVqDKmPZDGSR8mlcWnjPW2jdyaviRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

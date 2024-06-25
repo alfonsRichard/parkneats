@@ -1,0 +1,165 @@
+name: myapp
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  flutter_otp_text_field: ^1.1.3+2
+  http: ^1.2.1
+  get_storage: 2.1.1
+    
+  carousel_slider: ^4.0.0
+  image_picker: ^0.8.4+8
+  intl: ^0.18.1
+  webview_flutter: ^2.3.0
+  url_launcher: ^6.0.20
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  firebase_core: ^3.1.0
+  firebase_auth: ^5.1.0
+  uuid: ^4.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/img/logoapp.png
+    - assets/img/logoapp2.png
+    - assets/img/logoklmpk.png
+    - assets/img/login.png
+    - assets/img/signup.png
+    - assets/img/jatim1.jpg
+    - assets/img/jatim2.jpg
+    - assets/img/jatim3.jpg
+    - assets/img/kfc.jpg
+    - assets/img/pinkbeach.jpg
+    - assets/img/mountdiablo.jpg
+    - assets/img/kfc1.jpg
+    - assets/img/kfc2.jpg
+    - assets/img/kfc3.jpg
+    - assets/img/spicywings.png
+    - assets/img/kfc5.png
+    - assets/img/bundlepackage.png
+    - assets/img/everydayvalue.png
+    - assets/img/crispychicken.png
+    - assets/img/signaturebox.png
+    - assets/img/burger.png
+    - assets/img/chickenandchips.jpeg
+    - assets/img/mealdeal1.jpeg
+    - assets/img/superbundle.jpg
+    - assets/img/signaturebox2.jpeg
+    - assets/img/signaturebox3.jpg
+    - assets/img/logokfc.png
+    - assets/img/remove.png
+    - assets/img/prize.png
+    - assets/img/checked.png
+    - assets/img/email.png
+    - assets/img/promo1.png
+    - assets/img/promo2.png
+    - assets/img/promo3.png
+    - assets/img/promo4.png
+    - assets/img/promo5.png
+    - assets/img/promo6.png
+    - assets/img/promo7.png
+    - assets/img/promo8.png
+    - assets/img/promo9.png
+    - assets/img/promo10.png
+    - assets/img/promo11.png
+    - assets/img/promo12.png
+    - assets/img/logojtp.png
+    - assets/img/batusecretzoo.jpg
+    - assets/img/skyswinger.jpg
+    - assets/img/museumsatwa.jpg
+    - assets/img/ecogreenpark.jpg
+    - assets/img/show1.jpg
+    - assets/img/show2.jpg
+    - assets/img/show3.jpg
+    - assets/img/himalayacoaster.jpeg
+    - assets/img/flyingtornado.jpeg
+    - assets/img/dragoncoaster.jpg
+    - assets/img/supermancoaster.jpg
+    - assets/img/dinopark.jpg
+    - assets/img/thelegendstar.jpg
+    - assets/img/milenialglowgarden.jpg
+    - assets/img/funtechplaza.jpg
+    - assets/img/museummusikdunia.jpg
+    - assets/img/funtasticswimmingpool.jpg
+    - assets/img/jp1.jpeg
+    - assets/img/jp2.jpg
+    - assets/img/jp3.jpg
+    - assets/img/kfclogo.png
+    - assets/img/chicken.jpg
+    - assets/img/spicychicken.png
+    - assets/img/zingerburger.png
+    - assets/img/fries.png
+    - assets/img/bucket.png
+    
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
